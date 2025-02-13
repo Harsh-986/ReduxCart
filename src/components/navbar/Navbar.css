@@ -1,0 +1,112 @@
+.navbar-container {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-wrapper {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-language {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar-searchContainer {
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.navbar-input {
+  border: none;
+  outline: none;
+}
+
+.navbar-center {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.navbar-center span {
+  color: teal;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-menuItem {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.navbar-menuItem:hover {
+  color: teal;
+}
+
+.navbar-menuItem .icon {
+  font-size: 32px;
+}
+
+.cart-badge {
+  background-color: teal;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    height: 50px;
+  }
+
+  .navbar-wrapper {
+    padding: 10px 0px;
+  }
+
+  .navbar-language {
+    display: none;
+  }
+
+  .navbar-logo {
+    font-size: 18px;
+  }
+
+  .navbar-right {
+    justify-content: center;
+  }
+
+  .navbar-menuItem {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
