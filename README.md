@@ -10,6 +10,16 @@ A fully responsive e-commerce website built using **React, Redux Toolkit, and Re
 - Optimized state handling with Redux Toolkit
 - Fast development experience with Vite
 
+## Screenshots
+### Home Page
+![Home Page](1.png)
+
+### Product Page
+![Product Page](./2.png)
+
+### Shopping Cart
+![Shopping Cart](./3.png)
+
 ## Installation
 Follow these steps to set up and run the project locally:
 
@@ -60,6 +70,4 @@ Follow these steps to set up and run the project locally:
 ## Contributing
 Feel free to fork this repository, open issues, and submit pull requests to improve the project!
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
